@@ -1,0 +1,8 @@
+[Unit]
+Description=Snapclient
+
+[Service]
+ExecStart=%h/.appimages/Snapclient_v0.20.AppImage -h $SNAPCAST_IP
+
+[Install]
+WantedBy=default.target
